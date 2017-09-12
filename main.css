@@ -1,9 +1,20 @@
+@font-face {
+  font-family: "beleren-bold";
+  src: url("./Beleren-Bold.ttf");
+}
 body {
   margin: 0;
   background-color: #2e2e2e;
   color: #fff;
 }
 h1 {
+  font-family: "beleren-bold", sans-serif;
+  font-size: 40px;
+}
+h2 {
+  font-family: "beleren-bold", sans-serif;
+}
+p {
   font-family: sans-serif;
 }
 .img-header {
