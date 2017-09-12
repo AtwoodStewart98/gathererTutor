@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background-color: #2e2e2e;
+  color: #fff;
+}
+h1 {
+  font-family: sans-serif;
+}
+.img-header {
+  background-image: url("http://art-of-fantasy.org/images/gallery/Demonic-Tutor-by-Daarken-23.jpg");
+  background-position: center 18%;
+  background-color: #000;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 200px;
+  overflow: hidden;
+}
+.search-base {
+  padding-left: 15%;
+  padding-right: 15%;
+  border-top: 5px solid #000;
+}
+#mtg-logo {
+  padding-left: 23%;
+  padding-top: 18px;
+  height: 30%;
+  width: auto;
+}
+#dual-functions {
+  display: flex;
+  justify-content: space-evenly;
+}
+#gatherer-search {
+  margin-left: 10%;
+  width: 600px;
+  height: 20px;
+}
+#search-button {
+  border: 1px solid #000;
+  padding: 7px 25px 7px 23px;
+}
