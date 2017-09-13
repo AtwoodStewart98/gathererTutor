@@ -7,13 +7,20 @@ angular
         templateUrl: "../views/selectors.html"
       })
       .state("tutor", {
-        url: "/search-results/:id",
-        templateUrl: "../views/search-results.html"
+        url: "/search-results/:name",
+        templateUrl: "../views/search-results.html",
+        controller: "searchCtrl"
+      })
+      .state("card", {
+        url: "/search-results/card/:cardname",
+        templateUrl: "../views/card-display.html",
+        controller: "cardCtrl"
       })
       .state("library", {
         url: "/my-libraries",
         templateUrl: "../views/library.html"
       });
+    $urlRouterProvider.otherwise("/");
   })
   .config(function($sceDelegateProvider) {
     $sceDelegateProvider.resourceUrlWhitelist([

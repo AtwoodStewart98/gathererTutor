@@ -1,0 +1,26 @@
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #fff;
+}
+a:visited {
+  color: #fff;
+}
+a:hover {
+  color: #a9a9a9;
+}
+.results-structure {
+  display: flex;
+  flex-direction: row;
+}
+#image-floater {
+  background-color: #2e2e2e;
+  padding-left: 10%;
+  padding-top: 20px;
+}
+#organized {
+  margin-left: 5vw;
+  transform: translateX(5vw);
+  margin-right: 15vw;
+}

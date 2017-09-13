@@ -1,0 +1,16 @@
+<section>
+  <section ng-repeat="card in gathererInfo">
+    <div class="results-structure">
+      <div id="image-floater">
+        <img ng-src="{{card.editions[0].image_url}}" alt="{{card.name}}" />
+      </div>
+      <div id="organized">
+        <h1><a ui-sref="">{{card.name}}</a></h1>
+        <h3>Types: {{card.types}}</h3>
+        <h3>Subtypes: {{card.subtypes}}</h3>
+        <h3>Colors: {{card.colors}}</h3>
+        <h3>Text: {{card.text}}</h3>
+      </div>
+    </div>
+  </section>
+</section>
