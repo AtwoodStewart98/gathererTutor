@@ -1,0 +1,15 @@
+#card-structure {
+  display: flex;
+  flex-direction: row;
+}
+#card-img {
+  padding-top: 20px;
+  padding-left: 5%;
+}
+#resizer {
+  width: auto;
+  height: 110%;
+}
+#card-info {
+  margin-left: 15vw;
+}

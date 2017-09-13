@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./styles/search-results.css" />
     <link rel="stylesheet" href="./styles/library.css" />
     <link rel="stylesheet" href="./styles/selectors.css" />
+    <link rel="stylesheet" href="./styles/search-card.css" />
   </head>
   <body ng-controller="deckbrewCtrl">
     <div class="img-header">
@@ -17,8 +18,8 @@
         The Gatherer Tutor is an improved Magic card database that not only allows players to browse the entire twenty-five-year-long Magic: the Gathering library of cards, but also offers a deckbuilding template!
       </p>
       <span id="dual-functions">
-        <h2>Tutor For a Card</h2>
-        <h2>Research For a Library</h2>
+        <h2><a ui-sref="home">Tutor For a Card</a></h2>
+        <h2><a ui-sref="library">Research For a Library</a></h2>
       </span>
       <input id="gatherer-search" ng-model="searchInput" type="text" placeholder="Search Terms..." />
       <a ui-sref="tutor({name:searchInput})">
@@ -34,4 +35,6 @@
   <script src="./js/deckbrewDir.js"></script>
   <script src="./js/deckbrewSrvc.js"></script>
   <script src="./js/controllers/searchCtrl.js"></script>
+  <script src="./js/controllers/cardCtrl.js"></script>
+  <script src="./js/controllers/libraryCtrl.js"></script>
 </html>

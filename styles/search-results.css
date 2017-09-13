@@ -14,13 +14,24 @@ a:hover {
   display: flex;
   flex-direction: row;
 }
+.search-padding {
+  margin-bottom: 200px;
+}
 #image-floater {
-  background-color: #2e2e2e;
   padding-left: 10%;
   padding-top: 20px;
+}
+#borderized {
+  border-radius: 11px;
 }
 #organized {
   margin-left: 5vw;
   transform: translateX(5vw);
   margin-right: 15vw;
+}
+#organized h3 {
+  font-weight: normal;
+}
+#search-footer {
+  text-align: center;
 }
