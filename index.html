@@ -19,12 +19,14 @@
       </span>
       <input id="gatherer-search" type="text" placeholder="Search Terms..." />
       <button id="search-button" type="button">SEARCH</button>
-      <section ng-repeat="card in cards">
-        <!-- <img ng-src="{{card.editions[0].image_url}}" alt="{{card.name}}"/> -->
-      </section>
+      <ui-view></ui-view>
+      <!-- <section ng-repeat="card in cards">
+          <img ng-src="{{card.editions[0].image_url}}" alt="{{card.name}}"/>
+      </section> -->
     </div>
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script>
   <script src="./js/app.js"></script>
   <script src="./js/deckbrewCtrl.js"></script>
   <script src="./js/deckbrewDir.js"></script>
