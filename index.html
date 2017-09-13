@@ -17,8 +17,11 @@
         <h2>Tutor For a Card</h2>
         <h2>Research For a Library</h2>
       </span>
-      <input id="gatherer-search" type="text" placeholder="Search Terms...">
+      <input id="gatherer-search" type="text" placeholder="Search Terms..." />
       <button id="search-button" type="button">SEARCH</button>
+      <section ng-repeat="card in cards">
+        <!-- <img ng-src="{{card.editions[0].image_url}}" alt="{{card.name}}"/> -->
+      </section>
     </div>
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
