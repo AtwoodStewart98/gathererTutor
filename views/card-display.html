@@ -1,20 +1,20 @@
-<section id="card-structure" ng-repeat="card in gathererInfo">
+<div id="card-structure" ng-repeat="card in gathererInfo">
   <div id="card-img">
     <img id="resizer" ng-src="{{card.editions[0].image_url}}" alt="{{card.name}}" />
   </div>
   <div id="card-info">
     <h1>{{card.name}}</h1>
     <h3>Cost: {{card.cost}}</h3>
-    <h3>Types: {{card.types.toString()}}</h3>
-    <h3>Subtypes: {{card.subtypes.toString()}}</h3>
-    <h3>Colors: {{card.colors.toString()}}</h3>
+    <h3>Types: {{card.types.toString() | uppercase }}</h3>
+    <h3>Subtypes: {{card.subtypes.toString() | uppercase }}</h3>
+    <h3>Colors: {{card.colors.toString() | uppercase }}</h3>
     <h3>Text: {{card.text}}</h3>
     <h4>Flavor: {{card.editions[0].flavor}}</h4>
     <h4>Rarity: {{card.editions[0].rarity}}</h4>
     <h4>Set: {{card.editions[0].set}}</h4>
-    <button id="library-button" type="button"><a ui-sref="library">Add to Deck</a></button>
+    <button id="library-button" type="button"><a ng-click="addToLibrary(card.name)">Add to Deck</a></button>
   </div>
-</section>
+</div>
 <section id="search-footer">
   <footer>
     - Made by Stewart Atwood -

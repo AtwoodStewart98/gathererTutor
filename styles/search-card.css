@@ -1,20 +1,23 @@
 #card-structure {
+  margin-top: 20px;
+  margin-bottom: 200px;
   display: flex;
   flex-direction: row;
-  margin-bottom: 200px;
+  justify-content: space-between;
 }
 #card-img {
   padding-top: 40px;
   padding-left: 5%;
 }
 #resizer {
-  width: auto;
-  height: 110%;
+  height: 30em;
+  margin-right: 50px;
   border-radius: 18px;
 }
 #card-info {
-  margin-left: 15vw;
-  padding-top: 40px;
+  width: 600px;
+  float: right;
+  padding-bottom: 20px;
 }
 #library-button {
   border: 1px solid #000;
