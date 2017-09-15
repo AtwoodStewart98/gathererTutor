@@ -16,3 +16,9 @@
   margin-left: 15vw;
   padding-top: 40px;
 }
+#library-button {
+  border: 1px solid #000;
+  padding: 7px 25px 7px 23px;
+  color: #b22222;
+  background-color: #2b1d0e;
+}

@@ -18,7 +18,8 @@ angular
       })
       .state("library", {
         url: "/my-libraries",
-        templateUrl: "../views/library.html"
+        templateUrl: "../views/library.html",
+        controller: "libraryCtrl"
       });
     $urlRouterProvider.otherwise("/");
   })

@@ -11,23 +11,30 @@ a:hover {
   color: #a9a9a9;
 }
 .results-structure {
-  display: flex;
-  flex-direction: row;
+  display: inline;
 }
 .search-padding {
   margin-bottom: 200px;
 }
 #image-floater {
-  padding-left: 10%;
   padding-top: 20px;
+  padding-left: 10%;
+  width: 30vw;
+  /*margin: auto 0;*/
+  display: inline-block;
 }
 #borderized {
   border-radius: 11px;
 }
-#organized {
-  margin-left: 5vw;
-  transform: translateX(5vw);
-  margin-right: 15vw;
+.result-spacing {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.organized {
+  width: 600px;
+  padding-right: 20%;
+  float: right;
+  padding-bottom: 20px;
 }
 #organized h3 {
   font-weight: normal;
