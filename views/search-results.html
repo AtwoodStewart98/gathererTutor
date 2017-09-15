@@ -5,9 +5,9 @@
       </div>
       <div class="organized">
         <h1><a ui-sref="card({cardname:card.name})">{{card.name}}</a></h1>
-        <h3>Types: {{card.types.toString()}}</h3>
-        <h3>Subtypes: {{card.subtypes.toString()}}</h3>
-        <h3>Colors: {{card.colors.toString()}}</h3>
+        <h3>Types: {{card.types.toString() | uppercase}}</h3>
+        <h3>Subtypes: {{card.subtypes.toString() | uppercase}}</h3>
+        <h3>Colors: {{card.colors.toString() | uppercase}}</h3>
         <h4>Text: {{card.text}}</h3>
       </div>
   </section>
