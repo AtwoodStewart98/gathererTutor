@@ -1,3 +1,13 @@
+#card-list {
+  font-family: "beleren-bold";
+  font-size: 22px;
+  margin-left: 100px;
+}
 .center-list {
   text-align: center;
+}
+#library-footer {
+  margin-top: 200px;
+  text-align: center;
+  margin-bottom: 50px;
 }

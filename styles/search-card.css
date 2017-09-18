@@ -20,8 +20,10 @@
   padding-bottom: 20px;
 }
 #library-button {
-  border: 1px solid #000;
+  border: 2px solid #000;
   padding: 7px 25px 7px 23px;
-  color: #b22222;
-  background-color: #2b1d0e;
+  color: #fff;
+  background-color: #2e2e2e;
+  font-family: "beleren-bold";
+  font-size: 18px;
 }
