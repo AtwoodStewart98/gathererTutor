@@ -1,6 +1,6 @@
 <h1 class="center-list">My Deck</h1>
 <section ng-repeat="card in library">
-  <p id="card-list">{{card}}</p>
+  <p id="card-list"><a ui-sref="card({cardname:card})">{{card}}</a></p>
 </section>
 <section>
   <footer id="library-footer">
