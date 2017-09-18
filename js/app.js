@@ -4,21 +4,21 @@ angular
     $stateProvider
       .state("home", {
         url: "/",
-        templateUrl: "../views/selectors.html"
+        templateUrl: "views/selectors.html"
       })
       .state("tutor", {
         url: "/search-results/:name",
-        templateUrl: "../views/search-results.html",
+        templateUrl: "views/search-results.html",
         controller: "searchCtrl"
       })
       .state("card", {
         url: "/search-results/card/:cardname",
-        templateUrl: "../views/card-display.html",
+        templateUrl: "views/card-display.html",
         controller: "cardCtrl"
       })
       .state("library", {
         url: "/my-libraries",
-        templateUrl: "../views/library.html",
+        templateUrl: "views/library.html",
         controller: "libraryCtrl"
       });
     $urlRouterProvider.otherwise("/");
